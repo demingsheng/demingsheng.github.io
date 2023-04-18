@@ -1,1 +1,1 @@
-This is the source code for Deming Sheng's personal academic homepage(https://github.com/demingsheng/demingsheng.github.io), a secondary development based on Jon Barron's public academic website(https://jonbarron.info/). Feel free to clone this code for your own personal use.
+This is the source code for Deming Sheng's personal academic homepage(https://demingsheng.github.io/), a secondary development based on Jon Barron's public academic website(https://jonbarron.info/). Feel free to clone this code for your own personal use.
