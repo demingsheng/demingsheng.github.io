@@ -70,7 +70,41 @@
 
               <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-                
+                <tr onmouseout="iclr2026_stop()" onmouseover="iclr2026_start()"> <!-- bgcolor="#ffffd0" -->
+                  <td style="padding:5px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <!-- <abbr class="badge"><b>ICML</b></abbr> -->
+                      <div class="two" id='icml2025_image'>
+                      <img src="images/icml2025_after.JPG" width="200px" height="160px">
+                      </div>
+                      <img src='images/icml2025_before.JPG' width="200px" height="160px">
+                    </div>
+                    <script type="text/javascript">
+                      function icml2025_start() {
+                        document.getElementById('icml2025_image').style.opacity = "1";
+                      }
+                      function icml2025_stop() {
+                        document.getElementById('icml2025_image').style.opacity = "0";
+                      }
+                      icml2025_stop()
+                    </script>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <p><abbr><b>Machine Learning</b></abbr> &nbsp/&nbsp <abbr><b>Survival Analysis</b></abbr></p>
+                    <!-- <br> -->
+                    <a href="https://openreview.net/forum?id=frv3s3AtUD">
+                    <papertitle>Learning Survival Distributions with Individually Calibrated Asymmetric Laplace Distribution</papertitle>
+                    </a>
+                    <br>
+                    <strong>Deming Sheng</strong>, 
+                    <a href="https://scholar.google.com.hk/citations?user=p_mm4-YAAAAJ&hl=zh-CN&oi=ao">Ricardo Henao 📧</a>.
+                    <br>
+                    <em>ICLR (Core A*)</em>, 2026, Poster. 
+                    <br>
+                    <a href="https://openreview.net/forum?id=frv3s3AtUD">paper</a> &nbsp/&nbsp <a href="https://github.com/demingsheng/ALD">code</a> &nbsp/&nbsp <a href="https://icml.cc/media/icml-2025/Slides/44758.pdf">slide</a> &nbsp/&nbsp <a href="https://icml.cc/media/PosterPDFs/ICML%202025/44758.png?t=1750884018.4386542">poster</a> &nbsp/&nbsp <a href="https://icml.cc/virtual/2025/poster/44758">video</a> 
+                    <p>We introduce an ALD-based survival model that avoids discretization and captures diverse survival patterns.</p>
+                  </td>
+                </tr>
   
                 <tr onmouseout="icml2025_stop()" onmouseover="icml2025_start()"> <!-- bgcolor="#ffffd0" -->
                   <td style="padding:5px;width:25%;vertical-align:middle">
